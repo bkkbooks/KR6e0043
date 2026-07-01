@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6e0043/T/v1
+canonical_location: https://kanripo.org/bkk/KR6e0043/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說羅摩伽經
+  identifiers:
+    krp: KR6e0043
+    cbeta: T10n0294
+    cbeta_old_id: T10n0294
+    authorityid: CA0002150
+    json_key: T0294
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0294.xml
+    old_id: T10n0294
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0043_000-T.yaml, hash: 'sha256:0c61ccc2e41fa7045c298b65cacf21505580c984bbc7510f4fa317bd7e17eb91'}
+  - {seq: 1, filename: KR6e0043_001-T.yaml, hash: 'sha256:9f429f86ba8f77716b80b9336d91a22ac7d452582f2bfc13ce8c8bc10fca05b7'}
+  - {seq: 2, filename: KR6e0043_002-T.yaml, hash: 'sha256:84427c835e2f3d9afa978e54162328866f024c0102d1c6eb1e95e3ac38fa7baa'}
+  - {seq: 3, filename: KR6e0043_003-T.yaml, hash: 'sha256:b4b0bb5068c40093bea338226f3706ba760840408fd3991a2db0e5c6c895b36c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0043_000-T.markers.yaml, hash: 'sha256:62e0c65516013b820787e3281434410a92990d0febdde92ed7456f8094a6e79f'}
+  - {seq: 1, role: markers, filename: assets/KR6e0043_001-T.markers.yaml, hash: 'sha256:81fa268f8f7e8e311b537ba536f60682d9f425ab22d99362cc26abf41ee28802'}
+  - {seq: 2, role: markers, filename: assets/KR6e0043_002-T.markers.yaml, hash: 'sha256:66b373aa520056ee3c88cce6cfe135a67c951d757fb0e852c402839449bd2418'}
+  - {seq: 3, role: markers, filename: assets/KR6e0043_003-T.markers.yaml, hash: 'sha256:bdc29600dff8126b50b15621b69433a991161787ba4895c0d50626612b4d252c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0043_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13123
+  label: 佛說羅摩伽經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0043_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8850
+  label: 佛說羅摩伽經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0043_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 11269
+  label: 佛說羅摩伽經卷下
+  type: juan
+  level: 1
+hash: sha256:e73dff3db71d9601e98be9b8b1e2f49cea58d53ba841b740bad7e7e350e79496
